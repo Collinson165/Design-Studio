@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Assets/fonts/montserrat/Montserrat-Regular.ttf),
+    url(Assets/fonts/Montserrat/Montserrat-Bold.ttf),
+    url(assets/fonts/Montserrat/Montserrat-Light.ttf)
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /* background: url(assets/Background-mobile.jpg) no-repeat center center fixed; */
+    background: url(assets/Woman-no-text.png) no-repeat center center fixed;
+
+    /* background-image: url(assets/Woman-no-text.png), url(assets/Background-mobile.jpg);
+    background-position: center center, center center;
+    background-repeat: no-repeat, no-repeat; */
+
+    background-size: cover;
+    background-color: #00bfb8;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: white;
+    height: 100%;
+}
+
+.bbtn {
+    background-color: #ff951b;
+    border-color: #661037;
+    color: #661037; 
+}
+
+.navbar-toggler-icon {
+    background-image: url(assets/Logo.png);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+.social-buttons a:first-child {
+    color: #fb3958;
+}
+
+.social-buttons a:nth-child(2){
+    color: #3b5998;
+}
+
+.social-buttons a:nth-child(3){
+    color: #14171a;
+}
+
+.social-buttons a:nth-child(4) {
+    color: green;
+}
+
+@media (min-width: 992px) {
+    body {
+        background: url(assets/Background.jpg) no-repeat center center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Montserrat;
+        color: white;
+    }
+    
+    
+    .woman-background {
+        background: url(assets/Woman.png) no-repeat center center fixed;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+
+    .social-buttons a:first-child {
+        color: white;
+    }
+
+    .social-buttons a:nth-child(2) {
+        color: white;
+    }
+
+    .social-buttons a:nth-child(3) {
+        color: white;
+    }
+
+    .social-buttons a:nth-child(4) {
+        color: white;
+    }
+    
+    .social-buttons a:first-child:hover {
+        color: #fb3958;
+    }
+    
+    .social-buttons a:nth-child(2):hover {
+        color: #3b5998;
+    }
+    
+    .social-buttons a:nth-child(3):hover {
+        color: #14171a;
+    }
+
+    .social-buttons a:nth-child(4):hover {
+        color: green;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    body {
+        font-size: x-large;
+    }
+    
+}
+
+.theme-color-1 {
+    color: #b6205f;
+}
+
+.theme-color-2 {
+    color:  #661037; ;
+}
